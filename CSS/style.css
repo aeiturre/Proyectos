@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+body {
+  background: #000;
+}
+
+.p-Principal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: yellow;
+  margin: 2px;
+  padding: 2px;
+  background-color: gray;
+  font-size: larger;
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.cuerpo {
+  width: 1024px;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+}
+
+.container-gris {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-container-gris {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: yellow;
+  margin: 2px;
+  padding: 2px;
+  font-size: xx-large;
+}
+
+.p-container-gris {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  font-size: medium;
+}
+
+.card-personalizada {
+  box-shadow: 2px 1px 15px 1px #fff;
+  border: solid white;
+  border-radius: 20px;
+  background-color: #000;
+}
+
+.p-font-general {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.h5-font-general {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.h1-font-general {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.span-font-general {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Quicksand", sans-serif;
+}

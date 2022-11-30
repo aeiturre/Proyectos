@@ -1,0 +1,493 @@
+.nvidia{
+    background: url(https://external-preview.redd.it/-5bgDNLWRzVfTQFnEukWM0IcNbgiLQzMB7qFi4iec3c.png?auto=webp&s=ed221c52597dcc070b1b9c731b734c7964c8eb51);
+}
+.nvidia-h1{
+    display: flex;
+    justify-content: center; 
+    
+}
+.nvidia-h1 h1{
+   font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.nvidia-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nvidia-img img{
+    width: 40%;
+}
+.nvidia-img p{
+    margin-top: 100px;
+    width: 40%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.nvidia-h1 h4{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.nvidia-stats{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nvidia-stats iframe{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.nvidia-stats p{
+    margin-top: 50px;
+    width: 40%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+/* productos nvidia */
+.nvidia-4000{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.add-serie-3000{
+    display: flex;
+    justify-content: center;
+}
+.add-serie-3000 img{
+    height: 300px;
+    border-radius: 30px;
+}
+
+.rtx-4090{
+    margin-top: 50px;
+}
+.rtx-4090{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 290px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+ }
+ .rtx-4090 img{
+    height: 250px;
+    width: 270px;
+ }
+ .rtx-4090 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+  .rtx-4080{
+    margin-top: 50px;
+  }
+ .rtx-4080{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 290px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+ }
+ 
+ .rtx-4080 img{
+    height: 250px;
+    width: 270px;
+ }
+ .rtx-4080 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ /* productos serie-3000 */
+ .serie-3000{
+    margin-top: 20px;
+ }
+ .h1-serie-3000{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+
+ }
+ .serie-3000-img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+.add-serie-3000{
+   margin-bottom: 70px;
+}
+
+ .rtx-3090{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+ }
+ .rtx-3090 img{
+    height: 250px;
+    width: 270px;
+ }
+ .rtx-3090 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .rtx-3080{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+ }
+ .rtx-3080 img{
+    height: 250px;
+    width: 240px;
+    margin-left: 20px;
+ }
+ .rtx-3080 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .rtx-3070{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+ }
+ .rtx-3070 img{
+    height: 250px;
+    width: 240px;
+    margin-left: 20px;
+ }
+ .rtx-3070 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .rtx-3060{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+ }
+ .rtx-3060 img{
+    height: 250px;
+    width: 240px;
+    margin-left: 20px;
+ }
+ .rtx-3060 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .rtx-3050{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+ }
+ .rtx-3050 img{
+    height: 250px;
+    width: 270px;
+    margin-left: 20px;
+ }
+ .rtx-3050 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ .rtx-1660{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+ }
+ .rtx-1660 img{
+    height: 250px;
+    width: 270px;
+    margin-left: 20px;
+ }
+ .rtx-1660 button{
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#38c34f;
+    color: #fff;
+    border-color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ /* footer */
+ .pie-de-pagina{
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Anton', sans-serif;
+   font-family: 'Bebas Neue', cursive;
+   font-family: 'Cabin', sans-serif;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Lora', serif;
+   font-family: 'Playfair Display', serif;
+   font-family: 'Playfair Display SC', serif;
+   font-family: 'Quicksand', sans-serif;
+   color: #fff;
+   background-color: gray;
+}
+
+ 
+@media screen and (max-width: 800px) {
+   .nvidia-img {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; 
+   }
+   .nvidia-img img{
+      width: 400px;
+   }
+   .nvidia-img p{
+      width: 600px;
+   }
+   
+    .nvidia-stats{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .nvidia-stats iframe{
+      width: 400px;
+   }
+   .nvidia-stats p{
+      width: 600px;
+   }
+
+
+}
+
+
+@media screen and (max-width:613px) {
+   .nvidia-img p{
+      width: 400px;
+   }
+
+   .nvidia-stats p{
+      width: 400px;
+   }
+}
+
+@media screen and (max-width:678px){
+
+   .add-serie-3000 img{
+      width: 500px;
+
+   }
+}
+
+@media screen and (max-width:518px){
+
+   .add-serie-3000 img{
+      width: 350px;
+
+   }
+}
+
+@media screen and (max-width:419px) {
+   .nvidia-img p{
+      width: 300px;
+   }
+   .nvidia-img img{
+      width: 320px;
+   }
+   .nvidia-stats p{
+      width: 300px;
+   }
+   .nvidia-stats iframe{
+      width: 300px;
+      height: 250px;
+   }
+
+   .add-serie-3000{
+      height: 250px;
+   }
+}
+
+
+@media screen and (max-width:380px) {
+   .add-serie-3000 img {
+      width: 300px;
+      height: 200px;
+   }
+   .nvidia-img img {
+      width: 270px;
+   }
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD-TECH-TUCUMAN</title>
+
+    <link rel="stylesheet" href="../CSS/ecomerce.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/detalleDelProductos.css">
+
+    <!-- Link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- link de los icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Link de las fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cabin&family=Inter:wght@300&family=Josefin+Sans:wght@500;700&family=Lora:ital,wght@1,500&family=Playfair+Display+SC:ital,wght@0,700;1,900&family=Playfair+Display:wght@500&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="fondo">
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../IMG/Logo-WT.png" alt="Logo" width="100" class="d-inline-block align-text-top" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">
+                                <i class="bi bi-house-fill d-lg-none d-xl-none"></i> Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/login.html">
+                                <i class="bi bi-person-fill d-lg-none d-xl-none"></i> Login</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Componentes</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="../HTML/seccion-procesador.html" target="_blank"><i class="fa-solid fa-microchip"></i>Procesadores</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/NVIDIA.html" target="_blank"><i class="fa-solid fa-diamond"></i> Tarjetas graficas</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/motherboard.html" target="_blank"><i class="fa-solid fa-bag-shopping"></i> Tarjetas madre</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-memory"></i> Rams</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-fan"></i> Coolers</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-sharp fa-solid fa-car-battery"></i> Fuentes</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-computer"></i>Gabinetes</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-sharp fa-solid fa-gamepad"></i> Controles</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-hard-drive"></i> Almacenamiento</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-tv"></i> Monitores</a></li>
+                                </ul>
+                            </li>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/registro.html">
+                                <i class="bi bi-person-fill d-lg-none d-xl-none"></i>Registrarse</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/carritoDeCompra.html">
+                                <i class="bi bi-cart-fill d-lg-none d-xl-none"></i> Mis Compras
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/contacto.html">
+                                <i class="bi bi-envelope-fill d-lg-none d-xl-none"></i> Contacto
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/page_acercade.html"> Acerca de...</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                        <button class="btn btn-outline-secondary" type="submit">
+              Buscar
+            </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="titulos text-center">Producto de la tienda</h1>
+    <hr>
+    <section class="container">
+        <article class="row fondo titulos">
+            <div class="col-lg-9 col-md-8 col-sm-12 col-12 ">
+                <div class="card mt-3 mb-3">
+                    <div class="row g-0 fondo productoShadow">
+                        <div class="col-md-4 mt-4 mb-4 imagenEfecto">
+                            <div id="idCarruselProducto" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../IMG/carruselProductoTeclado02.png" class="d-block w-100 img-fluid rounded-start" alt="Teclados gamer colores varios">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../IMG/carruselProductoTeclado05_02.png" class="d-block w-100 img-fluid rounded-start" alt="Teclado gamer negro">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Teclado gamer Redragon<br>Kumara K552 QWERTY - Color negro</h5>
+                                <hr>
+                                <p class="card-text">Lleva color a tu escritorio y a los momentos de juegos con tus amigos. El Redragon Kumara K552 QWERTY es un teclado atractivamente económico y ergonómico.Posee una base antideslizante y un tiempo de respuesta rápido para
+                                    tus juegos favoritos</p>
+                                <p class="card-text"><small class="text-muted"><a href="#idDescripcion" class="text-decoration-none">Ver mas características</a>.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna de forma de pago 3 columnas -->
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12 ">
+                <div class="mt-4 mb-3 titulos text-center">
+                    <h4>Teclado gamer Redragon <br> Kumara K552 QWERTY <br> color negro </h4>
+                    <h4 class="mt-3 mt-3 text-warning">$10300</h4>
+
+                    <a href="../HTML/page_error404.html" class="text-white text-decoration-none"><button type="button" class="btn btn-outline-secondary detalleBotonPago">COMPRAR AHORA</button></a>
+                    <a href="../HTML/page_error404.html" class="text-white text-decoration-none"><button type="button" class="btn btn-outline-secondary detalleBotonPago">AGREGAR AL CARRITO</button></a>
+
+                    <div class="text-success">
+                        <p class="mt-0 mb-0"><i class="bi bi-truck"></i> Envio gratis! Llega en 3 días</p>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="idDescripcion">
+
+            <div>
+                <h3 class="titulos text-center mt-3 mb-3">CARACTERÍSTICAS</h3>
+                <table class="table table-dark table-striped text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Característica</th>
+                            <th scope="col">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Fabricante</th>
+                            <td>Redragon</td>
+                        </tr>
+                        <tr>
+                            <th>Modelo</th>
+                            <td>K552</td>
+                        </tr>
+                        <tr>
+                            <th>Layout</th>
+                            <td>QWERTY</td>
+                        </tr>
+                        <tr>
+                            <th>Idioma</th>
+                            <td>Español España</td>
+                        </tr>
+                        <tr>
+                            <th>Tipo de switch</th>
+                            <td>Outemu Red</td>
+                        </tr>
+                        <tr>
+                            <th>Color</th>
+                            <td>Negro</td>
+                        </tr>
+                        <tr>
+                            <th>Color de la retroliminación</th>
+                            <td>Rainbow</td>
+                        </tr>
+                        <tr>
+                            <th>Arquitectura</th>
+                            <td>Mecánico</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+
+        <article>
+            <div>
+                <div class="titulos mt-4">
+                    <h3 class="titulos text-center mt-3 mb-3">COMENTARIOS</h3>
+                    <div class="mb-3">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+
+                    </div>
+                    <div class="form-floating titulosblack">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="idProductoComentarios"></textarea>
+                        <label for="idProductoComentarios">Escriba su comentario</label>
+                        <button class="btn btn-secondary mt-3 mb-3" type="button">Enviar</button>
+                    </div>
+                    <hr>
+                    <div>
+                        <div class="mt-3 mb-3 d-flex">
+                            <div class="me-auto">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div>
+                                <small>01 nov 2022</small>
+                            </div>
+                        </div>
+                        <p>Cumple con lo que dice. En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar. Mezclar bien hasta que se formen burbujitas. Tapar con un nylon y dejar levar mas o menos 10 minutos. En otro
+                            bol, colocar la harina y mezclarla con la sal. Hacer un hueco en el centro, y luego volcar la media taza de agua con la levadura. Incorporar el resto del agua tibia. Unir con las manos todos los ingredientes hasta formar una
+                            masa. Agregar en forma de hilo el aceite y volver a amasar. Dejar descansar la masa para pizza unos 15 minutos, y luego amasarla en una mesa con harina. Dividir la masa en dos bollos del mismo tamaño. Estirar la masa hasta
+                            lograr un círculo. Poner la masa en una fuente para pizza, dejar descansar en lugar templado hasta que leve un poquito. Aproximadamente 15 minutos. Llevar a un horno fuerte unos 6 minutos. Esto es muy importante para que la
+                            masa para pizza quede bien cocida (principalmente la parte entre los ingredientes y la masa, si salteamos este punto quedará húmeda y cruda). Agregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.
+                            Listo! puedes dejar que se enfríe y llevarla al congelador para usarla en otro momento o ponerle el topping que quieras y hacerla en el momento! hace un tiempo hice un post con las 10 mejores pizzas, así que si quieren ideas
+                            pueden buscarlo e inspirarse!.</p>
+                    </div>
+
+                    <hr>
+                    <div>
+                        <div class="mt-3 mb-3 d-flex">
+                            <div class="me-auto">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div>
+                                <small>01 jul 2022</small>
+                            </div>
+                        </div>
+                        <p>Ya casi 2 años conmigo. El rgb muy lindo pero siempre lo tengo apagado, lo usan los pibes nomas cuando vienen a viciar a mi casa. Tengo el k522 negro con outemu red, se siente lindo al tacto la verdad, super preciso, no hace mucho
+                            ruido y las teclas se nota que son de calidad. Ahora el problema empezó pasado el año y medio le tuve que cambiar de golpe todo un sector del teclado porque las switches dejaron de andar (específicamente la a, s, d y w, siendo
+                            la w la cambie 2 veces) jamás se me cayó un líquido encima del teclado. Ya me quede sin los repuestos de los switches y cada tanto falla alguna tecla dispensable como la a o la d y me dejan inmóvil en plena partida. Me puse
+                            a consultar y pues resulta que no soy al único al que le pasa eso, no puedo recomendar el teclado teniendo una falla garrafal de ese tipo a menos de 3 años de uso, ni uno de membrana marca el pitufo alegre me hizo eso.</p>
+                    </div>
+
+                    <hr>
+                    <div>
+                        <div class="mt-3 mb-3 d-flex">
+                            <div class="me-auto">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div>
+                                <small>10 jun 2022</small>
+                            </div>
+                        </div>
+                        <p>Posiblemente hay mejores opciones por el precio pero siendo de redragon te aseguras de que va a ser de buena calidad. El chasis se nota de buena calidad y resistente (igual que las teclas) asi que por el uso dudo que se desgaste
+                            rapido. Compre la version sin rgb con los switches blue ya que me gusta el sonidito pero lo mejor posiblemente sean los siwtches red, la version sin rgb es con leds rojos que siendo el resto negro queda muy bien y en la oscuridad
+                            se ve bonito (el problema es que de personalizacion de los leds es casi nula y lo mejor es dejarlo predeterminado). Es facil de lavar (como cualquier teclado mecanico supongo) casi no es necesario sacar las teclas ya que con
+                            un compresor lo limpias facil (o soplando si no tiene mucha suciedad) igualmente sacar las teclas no es complicado y viene con una herramienta para sacarlas al igual que los switches (pero creo que vienen soldados aunque nunca
+                            intente sacarlos tampoco). Lo tengo hace unos cuantos meses y no tuve ningun problema con los switches ni nada, se nota que es de buena calidad sobre eso. La unica queja seria que al menos el cable se pueda desenchufar del
+                            teclado (como tienen otros teclados de otras gamas) ya que para simplificaria sacarlo para limpiarlo.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- FOOTER -->
+    <footer class="fondo">
+        <div class="container">
+            <div class="row fondo text-white">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 text-center">
+                    <img class="tamanioLogoFooter" src="../IMG/Logo-WT (5).PNG" alt="Logo-WT">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 text-center">
+                    <h4 class="mb-3">World Tech Tecnologia</h4>
+                    <div>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_acercade.html" class="text-decoration-none text-white">Conocenos mas a fondo</a></p>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white">Términos y Condiciones</a></p>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white">Política de Privacidad</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 mt-3 text-center">
+                    <h4 class="mb-3">Síguenos</h4>
+                    <div>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white"><i class="bi bi-instagram"></i> Instagram</a></p>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white"><i class="bi bi-facebook"></i> Facebook</a></p>
+                        <p class="mt-0 mb-0"> <a href="../index.html" class="text-decoration-none text-white"><i class="bi bi-browser-chrome"></i> Nuestra Página</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-white text-center mt-3 pb-3">
+                <span>Copyright - Todos los Derechos Reservados @ 2022</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>

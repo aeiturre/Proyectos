@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #000;
+}
+
+.encabezadoformulario {
+    font-family: 'Anton' sans-serif;
+    color: #fff;
+}
+
+.direccioncontacto {
+    margin-top: 20px;
+    font-family: 'Anton' sans-serif;
+    color: #fff;
+}
+
+.ubicacioncontacto {
+    margin-top: 0px;
+    font-family: 'Anton' sans-serif;
+    color: #fff;
+}
+
+.enviarcontacto {
+    margin-top: 20px;
+}
+
+.nombrecontacto {
+    margin-top: 20px;
+}
+
+.apellidocontacto {
+    margin-top: 20px;
+}
+
+.correocontacto {
+    margin-top: 20px;
+}
+
+.telefonocontacto {
+    margin-top: 20px;
+}
+
+.mensajecontacto {
+    margin-top: 20px;
+}

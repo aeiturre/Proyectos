@@ -1,0 +1,319 @@
+.intel{
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b1ceee5-9458-4434-80bc-fc5d83a2ea88/ded9lvi-419ade3e-18e7-4677-9d36-ce5616b8b5a3.png/v1/fill/w_1280,h_720,q_80,strp/intel_core_i7_wallpaper_by_unitedworldmedia_ded9lvi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNGIxY2VlZTUtOTQ1OC00NDM0LTgwYmMtZmM1ZDgzYTJlYTg4XC9kZWQ5bHZpLTQxOWFkZTNlLTE4ZTctNDY3Ny05ZDM2LWNlNTYxNmI4YjVhMy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ixvTkFwgUhX76Zkm9ky7bcmPmpv7r5qDwIfZ3KeG4zY);
+}
+.intel-h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.intel-h1 h1{
+    display: flex;
+    justify-content: center;
+}
+.intel-h1 h4{
+    margin-left: 50px;
+}
+.nuevos-intel{
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.nuevos-intel img{
+    width: 35%;
+    height: 400px;
+}
+.nuevos-intel p{
+    margin-top: 30px;
+    width: 40%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.img-intel{
+    gap: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-intel img{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+/* intel-core */
+.intel-core{
+    background-color: #2980B9;
+}
+
+.intel-core-h1{
+    display: flex;
+    justify-content: center ;
+}
+.intel-core-h1 h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.intel-imgs{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.intel-9{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid; color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+   
+}
+.intel-9 button{
+    border-color: #fff;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#2980B9;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.intel-7{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid; color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    color: #fff;
+}
+.intel-7 img{
+height: 180px;
+width: 200px;
+margin-left: 50px;
+}
+.intel-7 button{
+    border-color: #fff;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#2980B9;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.intel-5 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid; color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    color: #fff;
+}
+.intel-5 img{
+    height: 180px;
+    width: 150px;
+    margin-left: 80px;
+}
+.intel-5 button{
+    border-color: #fff;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#2980B9;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.intel-3 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid; color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    color: #fff;
+}
+.intel-3 img{
+    height: 180px;
+    width: 190px;
+    margin-left: 50px;
+}
+.intel-3 button{
+    border-color: #fff;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#2980B9;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.intel-x {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid; color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    color: #fff;
+}
+.intel-x img{
+    height: 170px;
+    width: 190px;
+    margin-left: 50px;
+}
+.intel-x button{
+    border-color: #fff;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#2980B9;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+/*  pie de pagina - footer */
+.pie-de-pagina{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: gray;
+ }
+
+
+
+ @media screen and (max-width: 900px) {
+    .nuevos-intel img{
+        height: 300px;
+    }
+ }
+
+ @media screen and (max-width: 760px) {
+    .nuevos-intel{
+        display: flex;
+        flex-direction: column;
+    }
+    .nuevos-intel p{
+        width: 550px;
+    }
+ }
+
+ @media screen and (max-width: 683px) {
+    .nuevos-intel img{
+        height: 230px;
+    }
+    
+ }
+
+ @media screen and (max-width: 565px) {
+    .nuevos-intel p{
+        width: 400px;
+    }
+ }
+
+ @media screen and (max-width: 530px) {
+    .nuevos-intel img{
+        height: 210px;
+    }
+    
+ }
+
+ @media screen and (max-width: 420px) {
+    .nuevos-intel p{
+        width: 350px;
+    }
+    .nuevos-intel img {
+        height: 150px;
+    }
+ }

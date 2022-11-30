@@ -1,0 +1,797 @@
+.marcas {
+    background-color: #000;
+    /* aregado por AEI*/
+    padding: 40px;
+}
+
+.top-marcas {
+    display: flex;
+    justify-content: center;
+}
+
+.top-marcas img {
+    border-radius: 30px;
+}
+
+.h1-partners {
+    display: flex;
+    justify-content: center;
+}
+
+.h1-partners h1 {
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* productos varios */
+
+.productos {
+    padding: 40px;
+    background-color: gray;
+}
+
+.h1-producto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.h1-producto h1 {
+    color: #fff;
+    background-color: gray;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contenedor-productos-mas-vendidos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.productos-ryzen {
+    width: 300px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    border-radius: 20px;
+}
+
+.productos-intel {
+    width: 300px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    border-radius: 20px;
+}
+
+.productos-geforce {
+    width: 300px;
+    box-shadow: 2px 1px 15px -1px #fff;
+    border-radius: 20px;
+}
+
+.productos-radeon {
+    width: 350px;
+    box-shadow: 2px 1px 15px 1px #fff;
+    border-radius: 20px;
+}
+
+
+/* productos varios */
+
+.productos {
+    background-color: gray;
+}
+
+.ofertas {
+    background-color: #000;
+}
+
+.ofertas-h1 {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    /* aregado por AEI*/
+    padding: 40px;
+}
+
+.publi-productos {
+    display: flex;
+    justify-content: center;
+}
+
+.publi-productos img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 600px;
+    height: 350px;
+}
+
+.productos-varios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.auriculares {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.auriculares button {
+    margin-left: 110px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.teclado {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.teclado img {
+    height: 220px;
+}
+
+.teclado button {
+    margin-left: 110px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.ventilador {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ventilador img {
+    height: 220px;
+}
+
+.ventilador button {
+    margin-left: 110px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.control button {
+    margin-left: 110px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.mouse {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.mouse img {
+    height: 230px;
+}
+
+.mouse button {
+    margin-left: 110px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.publicidad {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+/* OFERTAS */
+
+.black-friday {
+    margin-top: 50px;
+    /*agregado por aei*/
+    margin-bottom: 50px;
+}
+
+.img-black img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.img-black {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.oferta-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.oferta-h1 h1 {
+    color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.productos-de-ofertas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mouse-logitech {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.mouse-logitech img {
+    height: 200px;
+}
+
+.mouse-logitech button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.mouse-logitech-purple {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.mouse-logitech-purple img {
+    height: 200px;
+}
+
+.mouse-logitech-purple button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.auriculares-logitech {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.auriculares-logitech button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.gtx {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.gtx img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.gtx button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.ram-xpg {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.ram-xpg button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+.cooler {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.cooler img {
+    height: 200px;
+}
+
+.cooler button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* FOOTER */
+
+.pie-de-pagina {
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    background-color: gray;
+}
+
+
+/* Comenzamos a dar desarrollar detalleDelProductos */
+
+
+/* Defino el color de fondo */
+
+.fondo {
+    background-color: #000;
+}
+
+
+/* Definimos la letra y el color de la misma la cual será la principal*/
+
+.titulos {
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* Definimos la letra y el color de la misma la cual será la secundaria*/
+
+.titulosblack {
+    font-family: "Anton", sans-serif;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cabin", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    font-family: "Quicksand", sans-serif;
+    color: gray;
+}
+
+
+/* Redefinimos los shadow sin padding ni margin */
+
+.productoShadow {
+    box-shadow: 2px 1px 15px -1px #000;
+    border-radius: 5px;
+}
+
+
+/* Efecto hover para pasar por arriba de las imagenes del carrusel */
+
+.imagenEfecto img {
+    transition: all 300ms;
+}
+
+.imagenEfecto img:hover {
+    transform: scale(1.15);
+}
+
+
+/* Defino el boton de compra y de agregar al carrito */
+
+.detalleBotonPago {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* responsive pagina-inicio*/
+
+@media screen and (max-width: 655px) {
+    .img-black img {
+        width: 400px;
+    }
+    .publi-productos img {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .img-black img {
+        width: 330px;
+    }
+    .publi-productos img {
+        width: 330px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .publi-productos img {
+        width: 200px;
+        height: 150px;
+    }
+    .img-black img {
+        width: 200px;
+    }
+    .img-black img {
+        width: 250px;
+    }
+    .publi-productos img {
+        width: 250px;
+        height: 150px;
+    }
+    .teclado {
+        width: 190px;
+        height: 200px;
+    }
+    .teclado img {
+        width: 200px;
+    }
+    .teclado button {
+        margin-left: 10px;
+    }
+    .auriculares-logitech {
+        width: 200px;
+        height: 200px;
+    }
+    .auriculares-logitech img {
+        width: 200px;
+    }
+    .auriculares-logitech button {
+        margin-left: 10px;
+    }
+    .auriculares {
+        width: 200px;
+        height: 200px;
+    }
+    .auriculares img {
+        width: 200px;
+    }
+    .auriculares button {
+        margin-left: 10px;
+    }
+    .ventilador {
+        width: 200px;
+        height: 200px;
+    }
+    .ventilador img {
+        width: 200px;
+    }
+    .ventilador button {
+        margin-left: 10px;
+    }
+    .control {
+        width: 200px;
+        height: 200px;
+    }
+    .control img {
+        width: 200px;
+    }
+    .control button {
+        margin-left: 10px;
+    }
+    .mouse-logitech {
+        width: 200px;
+        height: 200px;
+    }
+    .mouse-logitech img {
+        width: 200px;
+    }
+    .mouse-logitech button {
+        margin-left: 10px;
+    }
+    .mouse-logitech-purple {
+        width: 200px;
+        height: 200px;
+    }
+    .mouse-logitech-purple img {
+        width: 200px;
+    }
+    .mouse-logitech-purple button {
+        margin-left: 10px;
+    }
+    .gtx {
+        width: 200px;
+        height: 240px;
+    }
+    .gtx img {
+        width: 130px;
+        height: 180px;
+    }
+    .gtx button {
+        margin-left: 10px;
+    }
+    .ram-xpg {
+        width: 200px;
+        height: 200px;
+    }
+    .ram-xpg img {
+        width: 200px;
+    }
+    .ram-xpg button {
+        margin-left: 10px;
+    }
+    .cooler {
+        width: 200px;
+        height: 200px;
+    }
+    .cooler img {
+        width: 200px;
+    }
+    .cooler button {
+        margin-left: 10px;
+    }
+    .mouse {
+        width: 200px;
+        height: 200px;
+    }
+    .mouse img {
+        width: 200px;
+    }
+    .mouse button {
+        margin-left: 10px;
+    }
+    .productos-ryzen {
+        width: 200px;
+        height: 180px;
+    }
+    .productos-ryzen img {
+        width: 200px;
+        height: 150px;
+    }
+    .productos-geforce {
+        width: 200px;
+        height: 180px;
+    }
+    .productos-geforce img {
+        width: 200px;
+        height: 150px;
+    }
+    .productos-intel {
+        width: 200px;
+        height: 180px;
+    }
+    .productos-intel img {
+        width: 200px;
+        height: 150px;
+    }
+    /* agregado por aei*/
+    /* .carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }*/
+}

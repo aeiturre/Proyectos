@@ -1,0 +1,329 @@
+.amd {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 18%, rgba(195, 128, 72, 1) 61%);
+}
+
+.amd-h1-info {
+    display: flex;
+    justify-content: center;
+}
+
+.amd-h1-info h1 {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.amd div {
+    border-radius: 20px;
+}
+
+.amd-info {
+    display: flex;
+    justify-content: center;
+}
+
+.amd-info img {
+    width: 600px;
+    height: 350px;
+}
+
+.amd-info p {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img-amd img {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.img-amd {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-amd img {
+    margin-top: 40px;
+}
+
+.img-amd-center div {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: 0, 6s;
+}
+
+.img-amd-center :hover {
+    transform: scale(1.1);
+}
+
+.img-amd-center img {
+    width: 250px;
+}
+
+
+/* productos amd-procesadores */
+
+.ultimos-lanzamientos {
+    background-color: #000;
+    margin-top: 100px;
+}
+
+.h1-ryzen {
+    display: flex;
+    justify-content: center;
+}
+
+.h1-ryzen h1 {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.procesadores-amd {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ryzen3 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ryzen3 button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #DC7633;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ryzen5 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ryzen5 button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #DC7633;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ryzen7 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ryzen7 button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #DC7633;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ryzen9 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ryzen9 button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #DC7633;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ryzen3-xt {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ryzen3-xt button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #DC7633;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ryzen-athlon {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 230px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.ryzen-athlon button {
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #DC7633;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pie-de-pagina {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: gray;
+}
+
+@media screen and (max-width: 973px) {
+    .amd-info img {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .amd-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .amd-info p {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .amd-info p {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .amd-info p {
+        width: 350px;
+    }
+    .amd-info img {
+        width: 350px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,442 @@
+.motherboard {
+    background: url(https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?cs=srgb&dl=pexels-pixabay-158826.jpg&fm=jpg);
+}
+
+.h1-mother {
+    display: flex;
+    justify-content: center;
+}
+
+.h1-mother h1 {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.border {
+    border-style: solid;
+}
+
+.mother-contenido {
+    justify-content: center;
+    width: 350px;
+    display: flex;
+}
+
+.mother-contenido p {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.info-mother {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info-mother img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.info-mother p {
+    margin-top: 40px;
+    width: 40%;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* b660 productos */
+
+.ofertas-mother {
+    background-color: #000;
+}
+
+.ofertas-h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.motherboard-compra {
+    margin-top: 30px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.B660 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.B660 img {
+    width: 250px;
+}
+
+.B660 button {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30%;
+    color: #000;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.B660-pro {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.B660-pro img {
+    width: 300px;
+}
+
+.B660-pro button {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30%;
+    color: #000;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.B660-asus {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #fff;
+}
+
+.B660-asus img {
+    width: 250px;
+}
+
+.B660-asus button {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30%;
+    color: #000;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* FAMILIA-B */
+
+.h1-B {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.productos-b {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.B650 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.B650 img {
+    width: 250px;
+}
+
+.B650 button {
+    background-color: #000;
+    border-radius: 20px;
+    width: 30%;
+    color: #fff;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.B640 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.B640 img {
+    width: 250px;
+    height: 250px;
+}
+
+.B640 button {
+    background-color: #000;
+    border-radius: 20px;
+    width: 30%;
+    color: #fff;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.A320 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.A320 img {
+    width: 250px;
+}
+
+.A320 button {
+    background-color: #000;
+    border-radius: 20px;
+    width: 30%;
+    color: #fff;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.A550 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.A550 img {
+    width: 250px;
+}
+
+.A550 button {
+    background-color: #000;
+    border-radius: 20px;
+    width: 30%;
+    color: #fff;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.B550 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.B550 img {
+    width: 250px;
+}
+
+.B550 button {
+    background-color: #000;
+    border-radius: 20px;
+    width: 30%;
+    color: #FFF;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.B450 {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+
+.B450 img {
+    width: 250px;
+}
+
+.B450 button {
+    background-color: #000;
+    border-radius: 20px;
+    width: 30%;
+    color: #fff;
+    margin-left: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* FOOOTER */
+
+.pie-de-pagina {
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: gray;
+}
+
+
+/* mediaquerie */
+
+@media screen and (max-width:898px) {
+    .info-mother img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:745px) {
+    .info-mother {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-mother p {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .info-mother img {
+        width: 350px;
+    }
+    .info-mother p {
+        width: 350px;
+    }
+}

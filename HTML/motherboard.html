@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--HOJA DE ESTILO PROPIA-->
+    <link rel="stylesheet" href="../CSS/motherboard.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/detalleDelProductos.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css" />
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/85493bdd25.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cabin&family=Inter:wght@300&family=Josefin+Sans:wght@500;700&family=Lora:ital,wght@1,500&family=Playfair+Display+SC:ital,wght@0,700;1,900&family=Playfair+Display:wght@500&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- titulo -->
+    <title>WORD-TECH-TUCUMAN</title>
+    <!-- icono -->
+    <link rel="icon" href="http://cdn.onlinewebfonts.com/svg/img_130845.png">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../IMG/Logo-WT.png" alt="Logo" width="100" class="d-inline-block align-text-top" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">
+                                <i class="bi bi-house-fill d-lg-none d-xl-none"></i> Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/login.html">
+                                <i class="bi bi-person-fill d-lg-none d-xl-none"></i> Login</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle  active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Componentes</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="../HTML/seccion-procesador.html" target="_blank"><i class="fa-solid fa-microchip"></i>Procesadores</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/NVIDIA.html" target="_blank"><i class="fa-solid fa-diamond"></i> Tarjetas graficas</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/motherboard.html" target="_blank"><i class="fa-solid fa-bag-shopping"></i> Tarjetas madre</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-memory"></i> Rams</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-fan"></i> Coolers</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-sharp fa-solid fa-car-battery"></i> Fuentes</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-computer"></i>Gabinetes</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-sharp fa-solid fa-gamepad"></i> Controles</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-hard-drive"></i> Almacenamiento</a></li>
+                                    <li><a class="dropdown-item" href="../HTML/page_error404.html"><i class="fa-solid fa-tv"></i> Monitores</a></li>
+                                </ul>
+                            </li>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/registro.html">
+                                <i class="bi bi-person-fill d-lg-none d-xl-none"></i>Registrarse</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/carritoDeCompra.html">
+                                <i class="bi bi-cart-fill d-lg-none d-xl-none"></i> Mis Compras
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/contacto.html">
+                                <i class="bi bi-envelope-fill d-lg-none d-xl-none"></i> Contacto
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../HTML/page_acercade.html"> Acerca de...</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                        <button class="btn btn-outline-secondary" type="submit">
+                Buscar
+              </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- presentacion-mother -->
+    <section class="motherboard pt-5 ">
+        <div class="h1-mother">
+            <h1>Bienvenido a el potencial de la B660</h1>
+        </div>
+        <div class="info-mother">
+            <img src="https://whatifgaming.com/wp-content/uploads/2022/06/MSI-MAG-B660-Tomahawk-WiFi-DDR4.png" alt="">
+            <p>Con la tecnología moviéndose tan rápido, GIGABYTE aún se mantiene al día con las últimas tendencias y brinda a nuestros clientes funciones avanzadas y la última tecnología. Las placas base de la serie B660 de GIAGBYTE vienen con una solución
+                de energía mejorada, los últimos estándares de almacenamiento y una conectividad excepcional para optimizar el rendimiento de los juegos.</p>
+        </div>
+        <div class="mother-contenido">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.venex.com.ar/products_images/1659467364_b660_aorus_master_ddr4-03.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.venex.com.ar/products_images/1659467364_b660_aorus_master_ddr4-02.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.venex.com.ar/products_images/1659467364_b660_aorus_master_ddr4-01.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- mothers-productos -->
+    <section class="ofertas-mother mb-5 pt-4">
+        <h1 class="ofertas-h1">Descubre la novedad de los modelos B660</h1>
+        <div class="motherboard-compra ">
+            <div class="B660 mb-5">
+                <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/018/096/products/10001-8413fe4577377b3f7516560301060566-640-0.png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="B660-pro mb-5">
+                <img src="https://www.asrock.com/mb/photo/B660%20Pro%20RS(M1).png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="B660-asus mb-5">
+                <img src="https://www.venex.com.ar/products_images/1659467364_b660_aorus_master_ddr4-01.png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- otros de la familia B -->
+    <section class="familia-B mb-5">
+        <h1 class="h1-B">Descubre otros productos de la familia</h1>
+        <div class="productos-b">
+            <div class="B650">
+                <img src="https://static.gigabyte.com/StaticFile/Image/Global/f02023e98f8355570c91126ed967316b/Product/32245/Png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="B640">
+                <img src="https://www.asrock.com/mb/photo/B460M%20Pro4(M1).png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="A320">
+                <img src="https://static.gigabyte.com/StaticFile/Image/Global/13d36633095a73c41ef5bf5e7ff0049c/Product/21656/Png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="A550">
+                <img src="https://static.gigabyte.com/StaticFile/Image/Global/d1693ca90c7e4bbbb2959c229f30fb54/Product/25358/Png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="B550">
+                <img src="https://www.venex.com.ar/products_images/1614174290_457356.png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+            <div class="B450">
+                <img src="https://static.gigabyte.com/StaticFile/Image/Global/fac1d2c440025e69e2731780e6feb98b/Product/21100/Png" alt="">
+                <a href="../HTML/page_error404.html"><button>Comprar</button></a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="fondo">
+        <div class="container">
+            <div class="row fondo text-white">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 text-center">
+                    <img class="tamanioLogoFooter" src="../IMG/Logo-WT (5).PNG" alt="Logo-WT">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 text-center">
+                    <h4 class="mb-3">World Tech Tecnologia</h4>
+                    <div>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_acercade.html" class="text-decoration-none text-white">Conocenos mas a fondo</a></p>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white">Términos y Condiciones</a></p>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white">Política de Privacidad</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 mt-3 text-center">
+                    <h4 class="mb-3">Síguenos</h4>
+                    <div>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white"><i class="bi bi-instagram"></i> Instagram</a></p>
+                        <p class="mt-0 mb-0"> <a href="../HTML/page_error404.html" class="text-decoration-none text-white"><i class="bi bi-facebook"></i> Facebook</a></p>
+                        <p class="mt-0 mb-0"> <a href="../index.html" class="text-decoration-none text-white"><i class="bi bi-browser-chrome"></i> Nuestra Página</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-white text-center mt-3 pb-3">
+                <span>Copyright - Todos los Derechos Reservados @ 2022</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.amd-intel{
+margin-top: 100px;
+background-color: #fff; 
+margin-bottom: 60px;
+
+}
+
+.marcas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    transition: 6s;
+    flex-wrap: wrap;
+}
+.marcas :hover{
+    transform: scale(1.1);
+}
+.h1-section{
+    display: flex;
+    justify-content: center;
+}
+.h1-section h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+}
+.amd img{
+width: 600px;
+border-radius: 20px;
+box-shadow: 2px 1px 15px -1px #000;
+
+}
+.intel img{
+    height: 273px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 15px -1px #000;
+}
+.pie-de-pagina{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: gray;
+}
+
+
+@media screen and (max-width: 772px) {
+      .marcas img{
+        width: 400px;
+      }
+      .intel{
+        height: 230px;
+        margin-bottom: 50px;
+      }
+}
+
+@media screen and (max-width: 518px){
+
+    .marcas img{
+        width: 320px;
+    }
+
+    .intel img{
+        height: 180px;
+    }
+}
